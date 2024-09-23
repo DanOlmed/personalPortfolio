@@ -19,6 +19,9 @@
       opacity: 1;
       transition: none;
     }
+    #proyectos{
+        margin-top: 60px;
+    }
   }
 
 #name{
