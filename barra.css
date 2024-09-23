@@ -1,0 +1,223 @@
+#barra-navegacion{
+    
+    background: rgba(101, 82, 114, 0.411);
+    font-weight: 900;
+    font-family: 'Teko';
+    font-size: larger;
+    text-shadow: 0 0 10px black;
+    font-style: italic;
+    font-size: 1.5rem;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+#barra-navegacion:hover,
+#barra-navegacion:focus-within{
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    #barra-navegacion {
+      opacity: 1;
+      transition: none;
+    }
+  }
+
+#name{
+    font-size: 1.5rem;
+}   
+#titulos{
+    font-family: 'Anton';
+    text-shadow: 0 0 15px indigo;
+    
+}
+
+#name:hover{
+    background: rgba(128, 128, 128, 0.637);
+    text-shadow: 0 0 15px black;
+}
+#options:hover{
+    background: rgba(128, 128, 128, 0.637);
+    text-shadow: 0 0 15px black;
+}
+#options2:hover{
+    background: rgba(128, 128, 128, 0.637);
+    text-shadow: 0 0 15px black;
+}
+#options3:hover{
+    background: rgba(128, 128, 128, 0.637);
+    text-shadow: 0 0 15px black;
+}
+#options4:hover{
+    background: rgba(128, 128, 128, 0.637);
+    text-shadow: 0 0 15px black;
+}
+
+
+body{
+    padding-top: 0.1px;
+    background-image: url(./Resources/background1.jpg);
+    
+    
+    background-repeat:no-repeat;
+    background-position: 55%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  
+  
+  
+
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-image: url(./Resources/imagengit.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 15% auto ;
+    margin-bottom: 2%;
+       
+}
+.card{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
+    text-shadow: 0 0 15px indigo;
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Teko';
+    
+}
+.card-header{
+    border: none;
+    font-size: 3rem;
+}
+
+#present{
+    text-shadow: 0 0 15px green;
+    font-size: 24px;
+}
+
+#tituloHabilidades{
+    font-family: 'Teko';
+    text-shadow: 0 0 15px indigo;
+    font-style: italic;
+    font-size: 3rem;
+    color: white;
+}
+#tectitle{
+    font-family: 'Teko';
+    text-shadow: 0 0 15px blue;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    
+}
+#softskills{
+    font-family: 'Teko';
+    text-shadow: 0 0 15px green;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Añade un margen inferior para espaciar los elementos */
+  }
+  
+#list{
+    font-family: 'Teko';
+    text-shadow: 0 0 15px blue;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#listsoft{
+    font-family: 'Teko';
+    text-shadow: 0 0 15px green;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('./Fonts/Teko-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa transparente */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .col-md-4:hover .overlay {
+    opacity: 1;
+  }
+  .tecnologiasusadas{
+    margin-bottom: 0%;
+    
+  }
+
+
+@media screen and (min-width:576px) {
+    #contactame{
+      background-size: cover;
+    }}
+
+#botonEnviar{
+    margin-top: 6px;
+    
+}
+#tituloContactame{
+    font-family: 'Teko';
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 15px indigo;
+    text-align: center;
+}
+.pieDePagina{
+   align-self:center;
+   padding-top: 0%;
+   margin-bottom: 0%;
+   margin-top: 30%;
+}
+
+#exampleModal{
+    align-self: center;
+    padding-top: 10%;
+}
+
+.footerTitulo{
+    justify-content: center;
+   
+}
+#redes{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Teko';
+    font-style: italic;
+    font-size: 3.2rem;
+    color: white;
+    text-shadow: 0 0 15px blue;
+}
+#redes1{
+    align-self: center;
+}
