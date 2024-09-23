@@ -19,10 +19,19 @@
       opacity: 1;
       transition: none;
     }
-    #proyectos{
-        margin-top: 60px;
-    }
+    #habilidades {
+        padding-bottom: 120px;
+      }
+      #proyectos {
+        padding-top: 120px;
+      }
   }
+
+ 
+  
+
+
+
 
 #name{
     font-size: 1.5rem;
