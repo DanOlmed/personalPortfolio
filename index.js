@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
             success: function(response) {
                 $('#modalMessage').text('¡Mensaje enviado con éxito!');
             },
-            error: function() {
-                $('#modalMessage').text('Error al enviar el mensaje. Intenta nuevamente.');
-            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              $('#modalMessage').text('Error al enviar el mensaje: ' + textStatus + ' - ' + errorThrown);
+          },
             complete: function() {
                 // Vaciar el formulario y esperar un breve momento antes de cerrar el modal
                 setTimeout(function() {
@@ -47,3 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#formulario')[0].reset();
     });
 });
+
+function changeLanguage(lang) {
+  document.querySelectorAll('[data-lang-es]').forEach(element => {
+      element.textContent = element.getAttribute(`data-lang-${lang}`);
+  });
+}
