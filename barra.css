@@ -114,7 +114,7 @@
 
 body{
     padding-top: 0.1px;
-    background-image: url(./Resources/background1.jpg);
+    background-image: url(./Resources/background1.webp);
     
     
     background-repeat:no-repeat;
@@ -131,7 +131,7 @@ body{
 #box{
     height: 200px;
     width: 200px;
-    background-image: url(./Resources/imagengit.jpg);
+    background-image: url(./Resources/imagengit.webp);
     background-size: cover;
     border-radius: 50%;
     margin: 15% auto ;
